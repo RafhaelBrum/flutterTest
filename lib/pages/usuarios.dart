@@ -102,7 +102,7 @@ class UsuariosState extends State<Usuarios> {
                   dataNascimento: DateFormat('dd/MM/yyyy')
                       .parse(dataNascimentoController.text),
                   fotoUrl:
-                      "https://i.pravatar.cc/300?img=$id", // NÃO ESTÁ PEGANDO A IMAGEM POR ALGUM MOTIVO
+                      "https://i.pravatar.cc/300?img=$id", // Abra pelo Android Studio. Direto pelo VSCode não carrega as imagens.
                 );
                 setState(() {
                   listaUsuarios.add(novoUsuario);
